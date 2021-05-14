@@ -1,6 +1,6 @@
 package com.Leetcode;
 
-public class Ch02ReverseInteger {
+public class Ch07ReverseInteger {
     public static void main(String[] args) {
         int x = 123;
         long result = reverseInteger(x);
