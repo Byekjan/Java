@@ -5,12 +5,12 @@ import java.util.Map;
 
 public class Ch13RomanToInteger {
     public static void main(String[] args) {
-        String s = "MCMXCIV";
-        int result = romanToInteger(s);
+        String s = "III";
+        int result = romanToInt(s);
         System.out.println(result);
     }
 
-    public static int romanToInteger(String s) {
+    public static int romanToInt(String s) {
         Map<Character, Integer> convertedNumbers = new HashMap<>();
         convertedNumbers.put('I', 1);
         convertedNumbers.put('V', 5);
